@@ -25,5 +25,17 @@ public class UntitledTest
 
         Assert.AreEqual(4, game.LiveCellsCount());
     }
+   [Test]
+    public void TestCellWithThreeLiveNeighboursRespawns() {
+        Game game = new Game(
+            5,5, new List<string>() 
+                {"0,0", "1,0", "0,1"});
+
+        game.Evolve();
+        game.PrintTable();
+
+        Assert.AreEqual(4, game.LiveCellsCount());
+    }
+
 }
 
