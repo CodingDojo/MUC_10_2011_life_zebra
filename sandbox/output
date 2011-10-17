@@ -1,3 +1,2 @@
-Untitled.cs(5,19): error CS1519: Unexpected symbol `;' in class, struct, or interface member declaration
-Untitled.cs(6,19): error CS1519: Unexpected symbol `;' in class, struct, or interface member declaration
-Compilation failed: 2 error(s), 0 warnings
+Untitled.cs(14,29): error CS0103: The name `coods' does not exist in the current context
+Compilation failed: 1 error(s), 0 warnings

@@ -11,7 +11,7 @@ public class Game {
         foreach(var cell in liveCells) {
             var coords = cell.Split(new char[] {','});
 
-            table[int.Parse(coods[0]), int.Parse(coords[1])] = 1;
+            table[int.Parse(coords[0]), int.Parse(coords[1])] = 1;
         }
     }  
 
