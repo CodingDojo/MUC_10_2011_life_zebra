@@ -56,6 +56,7 @@ public class Game {
     }
 
     public void PrintTable(){
+        Console.WriteLine();
         for(int i = 0; i < xBound; i++) {
             for(int j = 0; j < yBound; j++) {
                 Console.Write(table[i,j]);
