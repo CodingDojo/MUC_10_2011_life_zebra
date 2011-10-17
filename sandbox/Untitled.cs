@@ -39,6 +39,10 @@ public class Game {
                 if (aliveNeighbours > 3) {
                     table[i, j] = 0;
                 } 
+
+                if (aliveNeighbours = 3) {
+                    table[i, j] = 1;
+                }
   
             }
         }
