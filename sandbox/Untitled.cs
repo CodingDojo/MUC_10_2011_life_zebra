@@ -40,7 +40,7 @@ public class Game {
                     table[i, j] = 0;
                 } 
 
-                if (aliveNeighbours = 3) {
+                if (aliveNeighbours == 3) {
                     table[i, j] = 1;
                 }
   
