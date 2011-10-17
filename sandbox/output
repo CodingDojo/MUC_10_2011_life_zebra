@@ -1,4 +1,4 @@
-..
-Tests run: 2, Failures: 0, Not run: 0, Time: 0.021 seconds
-
-
+Untitled.cs(60,17): error CS0103: The name `Console' does not exist in the current context
+Untitled.cs(61,17): error CS0103: The name `Console' does not exist in the current context
+Untitled.cs(63,13): error CS0103: The name `Console' does not exist in the current context
+Compilation failed: 3 error(s), 0 warnings
