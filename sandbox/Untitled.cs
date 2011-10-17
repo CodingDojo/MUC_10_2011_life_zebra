@@ -35,7 +35,11 @@ public class Game {
                 var aliveNeighbours = GetAliveNeighboursCount(i, j);
                 if (aliveNeighbours < 2) {
                     table[i, j] = 0;
+                }
+                if (aliveNeighbours > 3) {
+                    table[i, j] = 0;
                 } 
+  
             }
         }
     }
