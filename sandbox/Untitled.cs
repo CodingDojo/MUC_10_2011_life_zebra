@@ -59,7 +59,7 @@ public class Game {
             return 0;
         }
 
-        if(x > xBound || y > yBound) {
+        if(x > xBound-1 || y > yBound-1) {
             return 0;
         }
 
