@@ -31,14 +31,14 @@ public class Game {
         for(int i = 0; i < xBound; i++) {
             for(int j = 0; j < yBound; j++) {
                 var aliveNeighbours = GetAliveNeighboursCount(i, j);
-                if (aliveNeoghbours < 2) {
+                if (aliveNeighbours < 2) {
                     table[i, j] = 0;
                 } 
             }
         }
     }
 
-    public int GetAliveNeoughboursCount(int x, int y) {
+    public int GetAliveNeighboursCount(int x, int y) {
         int count = 0;
 
         count += CheckBoundaries(x-1, y-1);
