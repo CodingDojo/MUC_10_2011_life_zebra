@@ -14,6 +14,7 @@ public class UntitledTest
         Assert.AreEqual(0, game.LiveCellsCount());
     }
 
+    [Test]
     public void TestCellWithMoreThanCellLiveNeighboursDies() {
         Game game = new Game(
             5,5, new List<string>() 
