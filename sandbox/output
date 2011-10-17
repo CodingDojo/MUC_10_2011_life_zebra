@@ -1,3 +1,3 @@
-UntitledTest.cs(3,14): error CS0234: The type or namespace name `Collection' does not exist in the namespace `System'. Are you missing an assembly reference?
-UntitledTest.cs(3,14): error CS0234: The type or namespace name `Collection' does not exist in the namespace `System'. Are you missing an assembly reference?
+UntitledTest.cs(3,26): error CS0234: The type or namespace name `Generics' does not exist in the namespace `System.Collections'. Are you missing an assembly reference?
+UntitledTest.cs(3,26): error CS0234: The type or namespace name `Generics' does not exist in the namespace `System.Collections'. Are you missing an assembly reference?
 Compilation failed: 2 error(s), 0 warnings
