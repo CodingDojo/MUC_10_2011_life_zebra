@@ -20,6 +20,7 @@ public class UntitledTest
             5,5, new List<string>() 
                 {"0,0", "1,0", "1,1","2,0","2,1"});
 
+        game.PrintTable();
         game.Evolve();
         game.PrintTable();
 
