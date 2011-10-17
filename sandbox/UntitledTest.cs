@@ -29,7 +29,7 @@ public class UntitledTest
     public void TestCellWithThreeLiveNeighboursRespawns() {
         Game game = new Game(
             5,5, new List<string>() 
-                {"0,0", "1,0", "0,1"});
+                {"0,0", "0,1", "1,0"});
 
         game.Evolve();
         game.PrintTable();
