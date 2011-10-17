@@ -1,3 +1,2 @@
-UntitledTest.cs(3,26): error CS0234: The type or namespace name `Generics' does not exist in the namespace `System.Collections'. Are you missing an assembly reference?
-UntitledTest.cs(3,26): error CS0234: The type or namespace name `Generics' does not exist in the namespace `System.Collections'. Are you missing an assembly reference?
-Compilation failed: 2 error(s), 0 warnings
+UntitledTest.cs(9,9): error CS0246: The type or namespace name `Game' could not be found. Are you missing a using directive or an assembly reference?
+Compilation failed: 1 error(s), 0 warnings
