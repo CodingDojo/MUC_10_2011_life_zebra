@@ -2,8 +2,8 @@ using System.Collections.Generic;
 
 public class Game {
     private int[,] table;
-    private xBound;
-    private yBound;
+    private int xBound;
+    private int yBound;
 
     public Game(int x, int y, List<string> liveCells) {
         table = new int[x, y];
