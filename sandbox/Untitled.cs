@@ -44,12 +44,12 @@ public class Game {
         int count = 0;
 
         count += CheckBoundaries(x-1, y-1);
-        count += CheckBoundaries(x, y-1);
+        count += CheckBoundaries(x-1, y);
         count += CheckBoundaries(x-1, y+1);
         count += CheckBoundaries(x, y-1);
         count += CheckBoundaries(x, y+1);
         count += CheckBoundaries(x+1, y-1);
-        count += CheckBoundaries(x-1, y);
+        count += CheckBoundaries(x+1, y);
         count += CheckBoundaries(x+1, y+1);
 
         return count;
