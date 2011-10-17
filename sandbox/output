@@ -1,3 +1,7 @@
-Untitled.cs(33,39): error CS0103: The name `GetAliveNeighboursCount' does not exist in the current context
-Untitled.cs(34,21): error CS0103: The name `aliveNeoghbours' does not exist in the current context
-Compilation failed: 2 error(s), 0 warnings
+Untitled.cs(5,17): warning CS0649: Field `Game.xBound' is never assigned to, and will always have its default value `0'
+Untitled.cs(6,17): warning CS0649: Field `Game.yBound' is never assigned to, and will always have its default value `0'
+Compilation succeeded - 2 warning(s)
+
+Tests run: 0, Failures: 0, Not run: 0, Time: 0.015 seconds
+
+
