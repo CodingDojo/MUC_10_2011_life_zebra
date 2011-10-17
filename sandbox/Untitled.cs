@@ -18,18 +18,18 @@ public class Game {
     }  
 
     public int LiveCellsCount() {
-        int count = 0;
+        int ct = 0;
 
         for(int i = 0; i < xBound; i++) {
             for(int j = 0; j < yBound; j++) {
                 if(table[i,j] == 1) {
                     Console.WriteLine("one");
-                    count = count + 1;
+                    ct = ct + 1;
                 }
             }
         }
 
-        return count;
+        return ct;
     }
 
     public void Evolve() {
