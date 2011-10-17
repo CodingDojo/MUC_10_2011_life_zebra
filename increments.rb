@@ -1,1 +1,1 @@
-[]
+[{:run_tests_output=>"UntitledTest.cs(9,48): error CS1526: A new expression requires () or [] after type\nCompilation failed: 1 error(s), 0 warnings\n", :time=>[2011, 10, 17, 21, 4, 54], :outcome=>:error, :number=>1}]

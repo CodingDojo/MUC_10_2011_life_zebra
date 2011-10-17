@@ -1,15 +1,16 @@
 
 using NUnit.Framework;
+using System.Collection.Generics;
 
 [TestFixture]
 public class UntitledTest
 {
-    [Test]
-    public void HitchHiker()
-    {
-        int expected = 6 * 9;
-        int actual = Untitled.Answer;
-        Assert.AreEqual(expected, actual);
+    public void TestOneCellDiesAfterEvolution() {
+        Game game = new Game(5,5, List<string> {"0,0"});
+
+        game.Evolve();
+
+        Assert.AreEqual(0, game.LiveCellsCount());
     }
 }
 
