@@ -1,4 +1,6 @@
-.F.
+.one
+one
+F.
 1 1 0 0 0 
 1 0 0 0 0 
 0 0 0 0 0 
@@ -10,8 +12,12 @@
 0 0 0 0 0 
 0 0 0 0 0 
 0 0 0 0 0 
+one
+one
+one
+one
 .
-Tests run: 3, Failures: 1, Not run: 0, Time: 0.095 seconds
+Tests run: 3, Failures: 1, Not run: 0, Time: 0.085 seconds
 
 Test Case Failures:
 1) UntitledTest.TestCellWithMoreThanCellLiveNeighboursDies :   Expected: 4
