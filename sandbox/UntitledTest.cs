@@ -1,6 +1,6 @@
 
 using NUnit.Framework;
-using System.Collection.Generics;
+using System.Collections.Generics;
 
 [TestFixture]
 public class UntitledTest
