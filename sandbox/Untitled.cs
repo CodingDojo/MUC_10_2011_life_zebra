@@ -23,12 +23,12 @@ public class Game {
         for(int i = 0; i < xBound; i++) {
             for(int j = 0; j < yBound; j++) {
                 if(table[i,j] == 1) {
-                    Console.WriteLine("one");
+                    Console.WriteLine(ct);
                     ct = ct + 1;
                 }
             }
         }
-
+        Console.WriteLine(ct);
         return ct;
     }
 
