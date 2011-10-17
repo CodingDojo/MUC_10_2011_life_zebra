@@ -6,7 +6,7 @@ using System.Collection.Generics;
 public class UntitledTest
 {
     public void TestOneCellDiesAfterEvolution() {
-        Game game = new Game(5,5, List<string> {"0,0"});
+        Game game = new Game(5,5, new List<string>() {"0,0"});
 
         game.Evolve();
 

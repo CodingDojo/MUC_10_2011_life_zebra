@@ -1,11 +1,2 @@
-
-  Click the Run Tests button (above). The output will appear here.
-  A traffic-light will also appear:
-     (o) red   - the tests ran but one or more failed
-     (o) amber - the tests could not be run
-     (o) green - the tests ran and all passed
-  Click any traffic light to view its diff.
-
-  Click a filename (left) to edit it here.
-
-  Click the Post button (left) to send a message to everyone.
+UntitledTest.cs(9,48): error CS1526: A new expression requires () or [] after type
+Compilation failed: 1 error(s), 0 warnings
