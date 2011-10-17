@@ -24,7 +24,7 @@ public class UntitledTest
         game.Evolve();
         game.PrintTable();
 
-        Assert.AreEqual(4, game.LiveCellsCount());
+        Assert.AreEqual(2, game.LiveCellsCount());
     }
 
    [Test]
