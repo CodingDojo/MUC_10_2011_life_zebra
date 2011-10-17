@@ -18,7 +18,7 @@ public class UntitledTest
     public void TestCellWithMoreThanCellLiveNeighboursDies() {
         Game game = new Game(
             5,5, new List<string>() 
-                {"0,0", "0,1", "1,0", "1,1","2,0","2,1"});
+                {"0,0", "1,0", "1,1","2,0","2,1"});
 
         game.Evolve();
 
