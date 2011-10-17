@@ -22,7 +22,10 @@ public class Game {
 
         for(int i = 0; i < xBound; i++) {
             for(int j = 0; j < yBound; j++) {
-                if(table[i,j] == 1) count++;
+                if(table[i,j] == 1) {
+                    Console.WriteLine("one");
+                    count++;
+                }
             }
         }
 
