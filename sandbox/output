@@ -5,7 +5,7 @@
 0 0 0 0 0 
 0 0 0 0 0 
 .
-Tests run: 3, Failures: 1, Not run: 0, Time: 0.075 seconds
+Tests run: 3, Failures: 1, Not run: 0, Time: 0.079 seconds
 
 Test Case Failures:
 1) UntitledTest.TestCellWithMoreThanCellLiveNeighboursDies :   Expected: 4

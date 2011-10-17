@@ -31,6 +31,7 @@ public class UntitledTest
             5,5, new List<string>() 
                 {"0,0", "0,1", "1,0"});
 
+        game.PrintTable();
         game.Evolve();
         game.PrintTable();
 
