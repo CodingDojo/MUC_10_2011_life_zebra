@@ -7,7 +7,8 @@ public class Game {
 
     public Game(int x, int y, List<string> liveCells) {
         table = new int[x, y];
-
+        xBound = x;
+        yBound = y;
         foreach(var cell in liveCells) {
             var coords = cell.Split(new char[] {','});
 
